@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dailykeys",
+  "version": "${version}",
+  "name": "Daily Keys",
+  "description": "Adds /daily to give four SkiesCrates Daily Keys once every 24 hours.",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "cz.gagi.dailykeys.DailyKeysMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
